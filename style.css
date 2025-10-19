@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2em / 1.5 system-ui;
+  width: clamp(480px, 70%, 1000px);
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*header e nav*/
+
+header {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav li {
+  flex: 1;
+  border: 2px black solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+/*main sections e articles*/
+
+/*form*/
+fieldset {
+  border: 0;
+  padding: 0;
+  display: block;
+  border: 2px black solid;
+}
+
+fieldset input {
+  margin: 15px;
+}
+
+label {
+  margin-right: 40px;
+}
+
+/*footer*/
+footer {
+  margin-top: 20px;
+  background-color: #282828;
+  color: antiquewhite;
+}
