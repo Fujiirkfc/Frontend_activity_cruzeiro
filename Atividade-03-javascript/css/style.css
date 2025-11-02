@@ -37,7 +37,6 @@ body {
   width: clamp(320px, 90%, 1280px);
   margin: 0 auto;
   padding: 0 var(--sp-2);
-  position: relative;
 }
 
 /* GRID */
@@ -102,7 +101,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  display: block;
+  padding: var(--sp-2);
 }
 nav ul {
   display: flex;
